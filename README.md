@@ -1,0 +1,1 @@
+Some solutions to project euler
