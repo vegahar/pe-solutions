@@ -1,42 +1,18 @@
 import java.util.ArrayList;
-import java.util.Iterator;
 
 
-
-
-public class Problem10 {
+public class Problem10{
 	
-	public static void main(String[] args) {	
-		ArrayList<Long> integers = new ArrayList<Long>();
-		integers.add(3l);
-		long c = 1000l;
-		long sum = 2;
-		boolean b;
-		for (long i = 3; i < c; i+=2) {
-			b = true;
-			for (long a : integers) {
-				long n= i%a;
-				if(n==0){
-					break;
-				}
-			}
-			if (b) {
-				integers.add(i);
-				sum += i;
-			}
-			System.out.println(i);
-			
-			
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> list = PrimeNumbers.getPrimeNumbers(2000000);
+		long sum =0;
+		for (Integer integer : list) {
+			sum+=integer;
 		}
-		StringBuilder a = new StringBuilder();
-		for (int i = 0; i < integers.size(); i++) {
-			a.append(integers.get(i)+"");
-		}
-		System.out.println(a.toString());
 		System.out.println(sum);
-		
-		
 	}
+	
 	
 	
 }

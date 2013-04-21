@@ -1,17 +1,16 @@
 
-
 public class Problem48 {
-
-    public static void main(String[] args) {
- 
-        for (int i = 0;  i <=10; i++) {
-			System.out.print(i + " ");
+	public static void main(String[] args) {
+		long sum =0;
+		for (int i = 1; i < 1001; i++) {
+			long a=i;
+			for (int j = 1; j <i; j++) {
+				a*=i;
+				a%=10000000000l;
+			}
+			sum+=a;
+			sum%=10000000000l;
 		}
-        int i =0;
-        System.out.println(i--);
-        for (int j = 0;  j <=10; ++j) {
-			System.out.print(j+ " ");
-		}
-    }
-	
+		System.out.println(sum);
+	}
 }

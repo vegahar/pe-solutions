@@ -1,8 +1,12 @@
+import java.util.ArrayList;
+import java.util.Date;
 
-public class Problem2 {
+
+public class Problem2{
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args){
+	
 		int sum = 2;
 		int a = 2;
 		System.out.println(4*10e6);
