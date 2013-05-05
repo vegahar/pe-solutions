@@ -1,4 +1,3 @@
-
 public class Problem92 {
 
 	
@@ -9,7 +8,7 @@ public class Problem92 {
 		for (int i = 0; i < nextNumber.length; i++) {
 			nextNumber[i] = nextInt(i);
 		}
-		System.out.println("lol");
+		
 		for (int i = 1; i < n; i++) {
 			int end = i;
 			while(true){
