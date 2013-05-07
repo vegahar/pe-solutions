@@ -1,1 +1,1 @@
-Some solutions to project euler
+Some solutions, attempts, empty files and slow "solutions"
