@@ -1,1 +1,1 @@
-Some solutions, attempts, empty files and slow "solutions"
+Some attempts, empty files slow and fast "solutions"
